@@ -25,16 +25,18 @@ body {
 }
 
 
+
 #logoimg {
    height: 60px;
    width: 140px;
-   padding-left: 20px;
+  
 }
 
 .firstmenu {
     line-height: 30px;
     padding-left: 20px;
     flex-direction: column;
+    color: #a3a3a3;
    
 }
 
@@ -42,28 +44,64 @@ body {
     padding-right: 10px;
 }
 
-ul {
-    color: white;
-}
-
-
 li {
     list-style-type: none;
 }
 
 .playlist {
-    color: white;
+    color: #a3a3a3;
     flex-direction: column;
+}
+
+.playlist h4 {
+    color: white;
 }
 
 .addplaylist {
   align-items: center;
 }
-
+ .name-playlist {
+    line-height: 40px;
+ }
 
 .playlist .fa-solid {
     font-size: 30px;
 }
+
+.second-menu {
+    color: white;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+.second-menu .fa-solid {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.menu-aside {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile {
+    border-top: 1px white solid;
+    width:90%;
+    line-height: 60px;
+}
+
+aside{
+    flex-basis: 200px;
+    background-color: black;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+
+/******** HEADER *******/
+
 
 
 header{
@@ -73,12 +111,6 @@ header{
 }
 
 
-aside{
-    flex-basis: 200px;
-    background-color: black;
-    flex-shrink: 0;
-    flex-direction: column;
-}
 
 /****** FOOTER *******/
 
