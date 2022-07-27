@@ -20,6 +20,10 @@ body {
     display: flex;
 }
 
+ul {
+    color: white;
+}
+
 header{
     height: 40px;
     background-color: thistle;
@@ -33,6 +37,8 @@ aside{
     flex-shrink: 0;
     flex-direction: column;
 }
+
+/****** FOOTER *******/
 
 footer{
     height: 100px;
