@@ -6,3 +6,38 @@
     padding: 0px;
 }
 
+/**** Content ****/
+
+body {
+    font-family: sans-serif;
+}
+
+
+.web-app{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color:#141922;
+    display: flex;
+}
+
+header{
+    height: 40px;
+    background-color: thistle;
+    flex-shrink: 0;
+}
+
+
+aside{
+    flex-basis: 200px;
+    background-color: black;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+footer{
+    height: 100px;
+    background-color: #282828;
+}
+
+
+
