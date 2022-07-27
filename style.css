@@ -12,6 +12,10 @@ body {
     font-family: sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
 
 .web-app{
     width: 100%;
@@ -20,13 +24,51 @@ body {
     display: flex;
 }
 
+
+#logoimg {
+   height: 60px;
+   width: 140px;
+   padding-left: 20px;
+}
+
+.firstmenu {
+    line-height: 30px;
+    padding-left: 20px;
+    flex-direction: column;
+   
+}
+
+.firstmenu .fa-solid {
+    padding-right: 10px;
+}
+
 ul {
     color: white;
 }
 
+
+li {
+    list-style-type: none;
+}
+
+.playlist {
+    color: white;
+    flex-direction: column;
+}
+
+.addplaylist {
+  align-items: center;
+}
+
+
+.playlist .fa-solid {
+    font-size: 30px;
+}
+
+
 header{
-    height: 40px;
-    background-color: thistle;
+    height: 80px;
+    background-color: red;
     flex-shrink: 0;
 }
 
