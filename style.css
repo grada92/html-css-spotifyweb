@@ -163,12 +163,15 @@ main {
     background-color: red;
     flex-wrap: wrap;
     z-index: 1;
-    width: calc(100% / 3 -200px);
+    
 }
 
-img {
-    width: 200px;
-    height: 200px;
+img { 
+    width: 100%;
+}
+
+.content2 h5 {
+    color: #797c80;
 }
 
 
@@ -176,17 +179,23 @@ img {
     flex-direction: column;
     align-items: center;
     gap:10px;
-    padding: 0px 10px;
+    padding: 10px 10px;
     text-align: center;
-    height: 100%;
+    width: 150px;
+    margin: 0px 10px;
 
 }
 
-.menu-content {
-    width: 100%;
+.content2 {
+    flex-direction: column;
+    gap: 20px;
+   
 }
 
+.card h4 {
+    color: white;
 
+}
 
 
 
