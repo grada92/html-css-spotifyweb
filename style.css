@@ -161,19 +161,17 @@ main {
 
 .album {
     background-color: red;
-    flex-wrap: wrap;
     z-index: 1;
     
-}
-
-img { 
-    width: 100%;
 }
 
 .content2 h5 {
     color: #797c80;
 }
 
+.card img {
+    width: 100%;
+}
 
 .card {
     flex-direction: column;
@@ -209,6 +207,18 @@ footer{
     height: 100px;
     background-color: #282828;
     z-index: 2;
+}
+
+.firstfooter {
+    height: auto;
+    text-align: center;
+    
+}
+
+
+
+.img-footer img {
+    width: 40px;
 }
 
 
