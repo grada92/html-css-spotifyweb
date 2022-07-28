@@ -271,6 +271,7 @@ footer {
     height: 100px;
     justify-content: space-between;
     gap: 20px;  
+ 
 }
 
 .img-footer {
@@ -297,6 +298,7 @@ footer {
     align-items: center;
     gap: 15px;
     justify-content: center;
+ 
 }
 
 .main-icon {
@@ -305,22 +307,23 @@ footer {
 }
 
 .playtrack {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .bar-track {
     gap: 30px;
+    width: 100%;
 }
 
 .bar {
-    width: 400px;
+    width: 80%;
     background-color: #5a5a5a;
     height: 6px;
     border-radius: 25px;
 }
 
 .whitebar {
-    width: 150px;
+    width: 20%;
     background-color:white;
     height: 6px;
     border-radius: 25px;
@@ -328,6 +331,7 @@ footer {
 
 .thirdfooter {
     align-items: center;
+    
     
 }
 
@@ -341,13 +345,13 @@ footer {
 .volume {
     height: 4px;
     background-color: #5a5a5a;
-    width: 30%;
+    width: 100px;
 }
 
 .bar-volume {
     height: 4px;
     background-color: white;
-    width: 10%;
+    width: 2%;
     position: absolute;
 
 }
