@@ -161,9 +161,7 @@ header{
 .menu-content {
     flex-direction: column;
     margin: 0px 40px;
-    width:calc(100% - 200px);
     position: relative;
-    z-index: 1;
     top: 80px;
 }
 
@@ -228,6 +226,15 @@ main {
    
 }
 
+.final-content {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.final-content img {
+    clip-path: circle(50%);
+
+}
 .card h4 {
     color: white;
 
@@ -250,10 +257,8 @@ main {
 
 /****** FOOTER *******/
 
-footer{
-    height: 100px;
+footer {
     background-color: #282828;
-    z-index: 2;
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
@@ -480,6 +485,12 @@ footer{
 
     body {
         overflow-x: hidden;
+    }
+
+    .card {
+
+        width: calc(100% / 2 - 20px);
+
     }
 
 
