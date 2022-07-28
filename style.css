@@ -80,6 +80,8 @@ li {
     padding-left: 20px;
     align-items: center;
     gap: 10px;
+    flex-direction: row;
+    
 }
 
 .playlist {
@@ -598,7 +600,13 @@ footer {
     }
 
     .home span {
+
         display: none;
+        
+    }
+
+    .libreria img {
+        width: 60%;
     }
 
     .playlist {
