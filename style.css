@@ -24,6 +24,10 @@ body {
     display: flex;
 }
 
+.logo-sito {
+    align-items: center;
+}
+
 
 
 #logoimg {
@@ -548,6 +552,12 @@ footer {
         flex-basis: 10px;
     }
 
+    header {
+        width:calc(100vw - 50px);
+
+    }
+
+    
     #logoimg {
         display: none;
         
@@ -569,18 +579,34 @@ footer {
     .install span {
         display: none;
     }
+    h4 {
+        display: none;
+    }
+
+    .profile-doe img {
+        padding-bottom: 40px;
+        padding-left: 10px;
+    }
+
+    hr {
+        display: none;
+    }
 
     .profile-doe h4 {
         display: none;
     }
 
     .profile-doe img {
-        padding-bottom: 40px;
-        clip-path: circle(30%);
-        padding-left: 10px;
+        padding-top: 43px;
+        clip-path: circle(15%);
+        width:40px;
+        padding-right: 8px;
+        margin-left: -13px;
     }
 
-
+    .install {
+        margin-bottom: -20px
+    }
 
 }
 
