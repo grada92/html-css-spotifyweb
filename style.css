@@ -332,6 +332,7 @@ footer {
     align-items: center;
     gap: 15px;
     justify-content: center;
+    width: 40%;
  
 }
 
@@ -502,6 +503,10 @@ footer {
 .card:hover img {
     opacity: 50%;
     cursor: pointer;
+}
+
+.card h6 {
+    color: #797c80;
 }
 
 .card:hover .play-none {
