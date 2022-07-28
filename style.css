@@ -163,6 +163,7 @@ header{
     margin: 0px 40px;
     position: relative;
     top: 80px;
+    flex-wrap: wrap;
 }
 
 main {
@@ -345,13 +346,13 @@ footer {
 .volume {
     height: 4px;
     background-color: #5a5a5a;
-    width: 100px;
+    width: 60px;
 }
 
 .bar-volume {
     height: 4px;
     background-color: white;
-    width: 2%;
+    width: 30px;
     position: absolute;
 
 }
@@ -478,19 +479,10 @@ footer {
 /***** RESPONSIVE *****/
 
 
-/* XS screen */
-@media screen and (min-width: 480px) {
 
+/* MD screen */ 
 
-}
-
-/* S screen */ 
-
-@media screen and (max-width: 768px) {
-
-    body {
-        overflow-x: hidden;
-    }
+@media screen and (max-width: 878px) {
 
     .card {
 
@@ -498,7 +490,10 @@ footer {
 
     }
 
-
+    .menu-tile {
+        flex-wrap: wrap;
+        width: calc(100% / 5);
+    }
 
 }
 
