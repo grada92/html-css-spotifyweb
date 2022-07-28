@@ -370,6 +370,11 @@ footer {
     
 }
 
+.card h6 {
+    color: #797c80;
+}
+
+
 .endfooter {
     color: #797c80;
     gap: 10px;
@@ -450,7 +455,7 @@ footer {
 
 }
 
-.install p:hover {
+.install span:hover {
     color: white;
     cursor: pointer;
 }
@@ -505,9 +510,6 @@ footer {
     cursor: pointer;
 }
 
-.card h6 {
-    color: #797c80;
-}
 
 .card:hover .play-none {
     display: block;
