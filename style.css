@@ -457,8 +457,9 @@ footer {
 .menu-title span:hover {
     color: white;
     cursor: pointer;
+    padding-bottom: 5px;
     border-bottom: 2px greenyellow solid;
-    margin-bottom: -2px;
+    margin-bottom: -10px;
     
 }
 
