@@ -207,12 +207,17 @@ hr {
 
 .menu-title {
     display: flex;
-    gap: 10px;
     justify-content: center;
     padding-top: 30px;
     color:#696b70;
     padding-bottom: 30px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
 
+.menu-title span {
+    padding: 0px 10px;
+    font-size: 13px;
 }
 
 .menu-content h2 {
@@ -336,7 +341,7 @@ footer {
 }
 
 .playtrack {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .bar-track {
@@ -484,9 +489,10 @@ footer {
 }
 
 .main-icon .fa-regular:hover {
-    font-size: 45px;
+    font-size: 30px;
     cursor: pointer;
-    margin: -5px -2px;  
+    margin: -2.5px;
+
 }
 
 .main-icon .fa-solid:hover {
@@ -519,11 +525,7 @@ footer {
 
     }
 
-    .menu-title {
-        flex-wrap: wrap;
 
-    }
-    
     .play-none {
 
     top: 40px;
@@ -543,6 +545,10 @@ footer {
 
     .icon-footer {
         flex-direction: column;
+    }
+
+    .play-none {
+        top: 50px;
     }
 
 
@@ -611,6 +617,10 @@ footer {
 
     .install {
         margin-bottom: -20px
+    }
+
+    .play-none {
+        top: 70px;
     }
 
 }
