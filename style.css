@@ -304,7 +304,13 @@ footer{
 .volume {
     height: 4px;
     background-color: #5a5a5a;
-    width: 40px;
+    width: 100px;
+}
+
+.bar-volume {
+    height: 4px;
+    background-color: white;
+    width: 30px;
 
 }
 
