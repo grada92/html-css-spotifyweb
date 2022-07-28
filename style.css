@@ -228,13 +228,12 @@ hr {
     text-align: center;
     justify-content: center;
     padding: 20px 20px;
-    margin: 20px;
-    border: 1px black solid;
 }
 
 .menu-title span {
-    padding: 0px 10px;
-    font-size: 13px;
+    
+    font-size: 11px;
+    margin: 10px;
 }
 
 .menu-content h2 {
@@ -248,9 +247,8 @@ hr {
 
 .nav-podcast {
     flex-wrap: wrap;
-    background-color: red;
     justify-content: center;
-    margin: 10px 10px;
+    margin: 10px 0px;
     width: 100%;
     
 }
@@ -566,6 +564,10 @@ footer {
     top: 40px;
     }
 
+    .menu-title span {
+        width: calc(100% / 5 - 20px);
+    }
+
 
 }
 
@@ -584,6 +586,11 @@ footer {
 
     .play-none {
         top: 50px;
+    }
+
+    
+    .menu-title span {
+        width: calc(100% / 3 - 20px);
     }
 
 
@@ -645,7 +652,7 @@ footer {
     }
 
     .profile-doe h4 {
-        display: none;
+      display: none;
     }
 
     .profile-doe img {
@@ -663,6 +670,12 @@ footer {
     .play-none {
         top: 70px;
     }
+
+    .menu-title span {
+        width: calc(100% / 4 - 20px);
+    }
+
+
 
 }
 
