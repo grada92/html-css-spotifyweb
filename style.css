@@ -160,10 +160,11 @@ header{
 
 .menu-content {
     flex-direction: column;
-    margin: 0px 40px;
+    padding: 0px 20px;
     position: relative;
     top: 80px;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 main {
@@ -185,6 +186,7 @@ main {
     padding-top: 30px;
     color:#696b70;
     padding-bottom: 30px;
+
 }
 
 .menu-content h2 {
@@ -216,7 +218,7 @@ main {
     gap:10px;
     text-align: center;
     width: calc(100% / 6 - 20px);
-    margin: 0px 10px;
+    margin: 10px 10px;
     color: white;
     position: relative;
 
@@ -490,14 +492,23 @@ footer {
 
     }
 
-    .menu-tile {
+    .menu-title {
         flex-wrap: wrap;
-        width: calc(100% / 5);
+
     }
 
 }
 
+/* S screen */
 
+@media screen  and (max-width: 639px) {
+
+    .card {
+
+        width: calc(100% / 2 - 20px);
+    }
+    
+}
 
 
 
