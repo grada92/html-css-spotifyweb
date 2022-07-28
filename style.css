@@ -99,6 +99,15 @@ aside{
     flex-direction: column;
 }
 
+.profile-doe img {
+    width: 15%;   
+}
+
+.profile-doe {
+    gap: 20px;
+    text-align: center;
+}
+
 
 
 
@@ -209,16 +218,16 @@ footer{
 }
 
 .firstfooter {
-    height: auto;
-    text-align: center;
     
+    height: 100px;
 }
 
-
-
-.img-footer img {
-    width: 40px;
+.img-footer {
+    padding: 30px 30px;
+    gap: 15px;
 }
 
-
-
+.text-footer {
+    flex-direction: column;
+    justify-content: center;
+}
