@@ -34,11 +34,10 @@ body {
 
 .firstmenu {
     line-height: 30px;
-    padding-left: 20px;
     flex-direction: column;
     color: #a3a3a3;
-   
 }
+
 
 .firstmenu .fa-solid {
     padding-right: 10px;
@@ -46,6 +45,7 @@ body {
 
 li {
     list-style-type: none;
+    padding-left: 20px;
 }
 
 .playlist {
@@ -55,10 +55,13 @@ li {
 
 .playlist h4 {
     color: white;
+    padding-left: 20px;
 }
 
 .addplaylist {
   align-items: center;
+  padding-left: 20px;
+
 }
  .name-playlist {
     line-height: 40px;
@@ -177,7 +180,6 @@ main {
 
 
 .album {
-    background-color: red;
     z-index: 1;
     
 }
@@ -314,4 +316,12 @@ footer{
 
 }
 
+/****** EFFECTS *****/
 
+
+.home li:hover {
+    color: white;
+    cursor: pointer;
+    border-left: 2px red solid;
+     
+}
