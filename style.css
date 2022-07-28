@@ -83,7 +83,6 @@ li {
 
 .addplaylist {
   align-items: center;
-  padding-left: 20px;
 
 }
  .name-playlist {
@@ -541,6 +540,12 @@ footer {
 
         width: calc(100% / 2 - 20px);
     }
+
+    .icon-footer {
+        flex-direction: column;
+    }
+
+
     
 }
 
