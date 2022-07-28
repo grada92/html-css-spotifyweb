@@ -199,7 +199,7 @@ header{
     position: relative;
     top: 80px;
     flex-wrap: wrap;
-    flex-grow: 1;
+    
 }
 
 main {
@@ -220,12 +220,16 @@ hr {
 
 .menu-title {
     display: flex;
-    justify-content: center;
     padding-top: 30px;
     color:#696b70;
     padding-bottom: 30px;
     max-width: 100%;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 20px;
+    border: 1px black solid;
 }
 
 .menu-title span {
@@ -240,6 +244,15 @@ hr {
 
 #title-played {
     padding-bottom: 20px;
+}
+
+.nav-podcast {
+    flex-wrap: wrap;
+    background-color: red;
+    justify-content: center;
+    margin: 10px 10px;
+    width: 100%;
+    
 }
 
 .album {
