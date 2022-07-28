@@ -36,7 +36,8 @@ body {
 #logosmall {
     padding-left: 20px;
     height: 40px;  
-    padding-top: 10px;
+    padding-top: 20px;
+    display: none;
 }
 
 .firstmenu {
@@ -532,6 +533,10 @@ footer {
 
     #logoimg {
         display: none;
+    }
+
+    #logosmall {
+        display: block;
     }
 
 
