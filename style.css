@@ -81,7 +81,10 @@ li {
 .second-menu .fa-solid {
     padding-right: 10px;
     padding-bottom: 10px;
-    
+}
+
+.install p {
+    color: #696b70;
 }
 
 .menu-aside {
@@ -269,6 +272,7 @@ footer{
     gap: 10px;
     padding: 30px 0px;
     align-items: center; 
+    color: #797c80;
 }
 
 .secondfooter {
@@ -313,7 +317,7 @@ footer{
 }
 
 .endfooter {
-    color: white;
+    color: #797c80;
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -329,8 +333,27 @@ footer{
     height: 4px;
     background-color: white;
     width: 30px;
+    position: absolute;
 
 }
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: aqua;
+    position: relative;
+    top: -3px;
+    left: 25px;
+    display: none;
+}
+
+
+
+
+
+
+
 
 /****** EFFECTS *****/
 
@@ -365,3 +388,39 @@ footer{
     width: 210px;
 
 }
+
+.install p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.img-footer h6:hover {
+    border-bottom: 1px white solid;
+    cursor: pointer;
+}
+
+.icon-footer .fa-regular:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.endfooter .fa-solid:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.volume:hover .circle {
+
+    display: block;
+}
+
+.volume:hover .bar-volume {
+    background-color: greenyellow;
+}
+
+
+
+
+
+
