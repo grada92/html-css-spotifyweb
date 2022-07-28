@@ -71,6 +71,17 @@ li {
     padding-left: 20px;
 }
 
+.libreria img {
+    width: 10%;
+
+}
+
+.libreria {
+    padding-left: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
 .playlist {
     color: #a3a3a3;
     flex-direction: column;
@@ -337,7 +348,7 @@ footer {
 }
 
 .main-icon {
-    gap: 30px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -347,7 +358,7 @@ footer {
 
 .bar-track {
     gap: 30px;
-    width: 100%;
+    width: 80%;
 }
 
 .bar {
