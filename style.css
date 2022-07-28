@@ -46,6 +46,16 @@ body {
     color: #a3a3a3;
 }
 
+.home {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.row {
+    align-items: center;
+}
+
 
 .firstmenu .fa-solid {
     padding-right: 10px;
