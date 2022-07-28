@@ -36,7 +36,8 @@ body {
 #logosmall {
     padding-left: 20px;
     height: 40px;  
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: none;
 }
 
@@ -100,6 +101,8 @@ li {
     padding-bottom: 10px;
 }
 
+
+
 .install p {
     color: #696b70;
 }
@@ -112,7 +115,6 @@ li {
 }
 
 .profile {
-    border-top: 1px white solid;
     width:90%;
     line-height: 60px;
 }
@@ -188,6 +190,10 @@ main {
     flex-grow: 1;
     overflow-y: scroll;
     width: 100%;
+}
+
+hr {
+    width: 80%;
 }
 
 
@@ -544,11 +550,36 @@ footer {
 
     #logoimg {
         display: none;
+        
     }
 
     #logosmall {
         display: block;
+
     }
+
+    .home span {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    .install span {
+        display: none;
+    }
+
+    .profile-doe h4 {
+        display: none;
+    }
+
+    .profile-doe img {
+        padding-bottom: 40px;
+        clip-path: circle(30%);
+        padding-left: 10px;
+    }
+
 
 
 }
