@@ -100,10 +100,17 @@ aside{
 }
 
 .profile-doe img {
-    width: 15%;   
+    width: 20%;
+    background-color: gray;
+    clip-path: circle(30%);
+    padding-top: 5px;
+    
+    
+    
 }
 
 .profile-doe {
+    
     gap: 20px;
     text-align: center;
 }
@@ -147,6 +154,7 @@ header{
 }
 
 main {
+    flex-grow: 1;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -215,11 +223,15 @@ footer{
     height: 100px;
     background-color: #282828;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
 }
 
 .firstfooter {
-    
+    color: white;
     height: 100px;
+    justify-content: space-between;
+    
 }
 
 .img-footer {
@@ -230,4 +242,28 @@ footer{
 .text-footer {
     flex-direction: column;
     justify-content: center;
+    gap: 5px;
 }
+
+.icon-footer {
+    gap: 10px;
+    padding: 30px 0px;
+    align-items: center; 
+}
+
+.secondfooter {
+    color: white;
+}
+
+.main-icon {
+    gap: 40px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.playtrack {
+    font-size: 40px;
+}
+
+
+
