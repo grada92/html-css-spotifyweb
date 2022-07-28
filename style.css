@@ -322,6 +322,25 @@ footer{
 .home li:hover {
     color: white;
     cursor: pointer;
-    border-left: 2px red solid;
+    border-left: 2px greenyellow solid;
      
+}
+
+.playlist li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.addplaylist:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.menu-title span:hover {
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px greenyellow solid;
+    margin-bottom: -2px;
+     
+
 }
