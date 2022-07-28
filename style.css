@@ -28,9 +28,15 @@ body {
 
 #logoimg {
     padding-left: 20px;
-   height: 60px;
+   height: 40px;
    width: 140px;
   
+}
+
+#logosmall {
+    padding-left: 20px;
+    height: 40px;  
+    padding-top: 10px;
 }
 
 .firstmenu {
@@ -181,7 +187,7 @@ main {
 
 .menu-title {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     padding-top: 30px;
     color:#696b70;
@@ -305,7 +311,7 @@ footer {
 }
 
 .main-icon {
-    gap: 40px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -496,6 +502,12 @@ footer {
         flex-wrap: wrap;
 
     }
+    
+    .play-none {
+
+    top: 40px;
+    }
+
 
 }
 
@@ -509,6 +521,22 @@ footer {
     }
     
 }
+
+/* XS screen */
+
+@media screen  and (max-width: 552px) {
+
+    aside {
+        flex-basis: 10px;
+    }
+
+    #logoimg {
+        display: none;
+    }
+
+
+}
+
 
 
 
