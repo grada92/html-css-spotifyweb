@@ -197,7 +197,7 @@ header{
 
 .menu-content {
     flex-direction: column;
-    padding: 0px 20px;
+    padding: 0px 10px;
     position: relative;
     top: 80px;
     flex-wrap: wrap;
@@ -229,7 +229,7 @@ hr {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    padding: 20px 20px;
+    padding: 20px 0px;
 }
 
 .menu-title span {
@@ -322,7 +322,7 @@ footer {
     background-color: #282828;
     display: flex;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 0px 10px;
     width: 100%;
     position: fixed;
 }
@@ -331,7 +331,7 @@ footer {
     color: white;
     height: 100px;
     justify-content: space-between;
-    gap: 20px;  
+    gap: 15px;  
  
 }
 
@@ -404,7 +404,7 @@ footer {
 
 .endfooter {
     color: #797c80;
-    gap: 10px;
+    gap: 8px;
     justify-content: center;
     align-items: center;
 }
@@ -477,10 +477,11 @@ footer {
     
 }
 
+
+
 #upgrade:hover {
     height: 50px;
     width: 210px;
-
 }
 
 .install span:hover {
