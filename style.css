@@ -236,6 +236,7 @@ hr {
     
     font-size: 11px;
     margin: 10px;
+    white-space: nowrap;
 }
 
 .menu-content h2 {
